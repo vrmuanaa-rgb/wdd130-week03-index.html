@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid #333;
+    padding: 1rem;
+    background-color: #e6f0f5;
+    color: #222;
+}
+
+/* Profile Introduction */
+.intro {
+    display: flow-root;
+}
+
+.intro img {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin: 0 0 1rem 1rem;
+}
+
+/* Aside Heading Overlay */
+aside {
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+}
